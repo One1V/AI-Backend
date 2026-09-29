@@ -1,4 +1,3 @@
-
 # 📘 Module 3 Summary – Viewing & Editing Files (Backend Internship Level)
 
 ## 1. `cat` – Display Entire File
@@ -412,34 +411,21 @@ vim .env
 
 # 📊 Importance for AI Backend / MERN
 
-| Topic           | Importance  |
-| --------------- | ----------- |
-| `cat`         | ⭐⭐⭐⭐⭐  |
-| `less`        | ⭐⭐⭐⭐⭐  |
-| `tail`        | ⭐⭐⭐⭐⭐  |
-| `tail -f`     | ⭐⭐⭐⭐⭐  |
-| `grep`        | ⭐⭐⭐⭐⭐  |
-| Pipes (``)      | ⭐⭐⭐⭐⭐  |
-| `find`        | ⭐⭐⭐⭐⭐  |
-| `nano`        | ⭐⭐⭐⭐⭐  |
-| `vim` (basic) | ⭐⭐⭐⭐☆  |
-| `head`        | ⭐⭐⭐⭐☆  |
-| `wc`          | ⭐⭐⭐⭐☆  |
-| Basic Regex     | ⭐⭐⭐☆☆  |
-| `sort`        | ⭐⭐⭐☆☆  |
-| `uniq`        | ⭐⭐⭐☆☆  |
-| `cut`         | ⭐⭐☆☆☆  |
-| `locate`      | ⭐⭐☆☆☆  |
-
----
-
-# ✅ After Module 3, You Can
-
-* Read and inspect files from the terminal.
-* Analyze Express and Nginx logs.
-* Search logs efficiently using `grep`.
-* Monitor live logs with `tail -f`.
-* Locate files using `find`.
-* Count log entries with `wc`.
-* Combine commands using pipes (`|`).
-* Edit files using `nano` or basic `vim`.
+| Topic           | Importance |
+| --------------- | ---------- |
+| `cat`         | ⭐⭐⭐⭐⭐ |
+| `less`        | ⭐⭐⭐⭐⭐ |
+| `tail`        | ⭐⭐⭐⭐⭐ |
+| `tail -f`     | ⭐⭐⭐⭐⭐ |
+| `grep`        | ⭐⭐⭐⭐⭐ |
+| Pipes (``)      | ⭐⭐⭐⭐⭐ |
+| `find`        | ⭐⭐⭐⭐⭐ |
+| `nano`        | ⭐⭐⭐⭐⭐ |
+| `vim` (basic) | ⭐⭐⭐⭐☆ |
+| `head`        | ⭐⭐⭐⭐☆ |
+| `wc`          | ⭐⭐⭐⭐☆ |
+| Basic Regex     | ⭐⭐⭐☆☆ |
+| `sort`        | ⭐⭐⭐☆☆ |
+| `uniq`        | ⭐⭐⭐☆☆ |
+| `cut`         | ⭐⭐☆☆☆ |
+| `locate`      | ⭐⭐☆☆☆ |

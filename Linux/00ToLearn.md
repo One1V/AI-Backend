@@ -39,7 +39,9 @@ The kernel is the foundation of Linux networking.
 
 ###### The kernel manages:
 
-* Processes
+* Processes-> Node.js is a linux process.
+* Parallel Tasking
+* Multi Tasking
 * Memory
 * Files
 * Devices
@@ -85,7 +87,6 @@ you'll most likely choose:
 
 > Linux architecture consists of four main layers: Applications, Shell, Kernel, and Hardware. Applications interact with the kernel (often through libraries or via commands interpreted by the shell), and the kernel manages hardware resources such as CPU, memory, storage, and networking.
 
-
 * **Terminal** → User interface (window)
 * **Shell** → Understands commands
 * **Kernel** → Manages hardware
@@ -110,9 +111,6 @@ A good answer:
 > * **Kernel** creates processes and manages execution.
 > * Every backend command (`node`, `npm`, `git`, `docker`) follows this same lifecycle.
 
-
-
-
 # Key Takeaways
 
 * Linux has **one root directory (`/`)**, unlike Windows' multiple drive letters.
@@ -126,9 +124,7 @@ A good answer:
 
   > **etc = settings**
   >
-
 * Knowing where things are stored makes deployment and debugging much easier.
-
 
 ```
 Windows
@@ -139,8 +135,6 @@ Linux
    ↓
 The most common choice for backend servers and cloud deployments
 ```
-
-
 
 # Real Cloud Server Example
 
@@ -191,3 +185,28 @@ ssh ubuntu@server-ip
 ```
 
 ---
+
+bin & /usr/bin: Command executable binaries (like ls, mkdir,grep).
+
+/opt-> optional software install
+
+/proc: Running processes and kernel configurations dynamically virtual folders.
+
+/sbin: Admin binaries for system recovery (like reboot,iptables)
+
+Suppose we have to change any softwares configuration then we will use /etc/config
+
+-rw-r--r-- — File type and permissions
+
+- -= regular file (d would mean directory)
+  rw- = owner can read/write
+  r-- = group can read
+
+
+`ls -la` is often the first command people run when troubleshooting because it lets you:
+
+* See hidden configuration files (like `.env`, `.git`, `.ssh`).
+* Check file permissions and ownership.
+* View file sizes and modification times.
+
+`touch` is a Linux command used mainly to **create an empty file** or  **update a file's timestamp** .

@@ -114,7 +114,7 @@
 
 ---
 
-# Module 9 — Logs & Monitoring (73–80)
+# Module 9 — Logs & Monitoring (73–80)*(left for practical use)
 
 73. Where are Linux logs stored?
 74. How do `journalctl` and system logs work?
